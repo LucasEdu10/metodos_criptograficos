@@ -1,9 +1,9 @@
+from  metodo_cesar import cesar
+
 def cesar():
     convertido2 = ''
     alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     def cripto():
-        # alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-        # convertido = ''
         palavra = str(input("Digite a palavra: "))
         key = int(input("Digite a chave: "))
         palavra = palavra.upper()
@@ -17,8 +17,6 @@ def cesar():
         print('A palavra criptografada é: ',convertido)
 
     def dscripto():
-        # alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-        # convertido = ''
         palavra = str(input("Digite a palavra: "))
         key = int(input("Digite a chave: "))
         palavra = palavra.upper()
@@ -63,7 +61,7 @@ def menu():
         
         opc = int(input('Escolha uma opção: '))
         if opc == 1:
-            cesar()
+            cesar.menu()
         else:
             check = False
             print('Até a proxima!')
