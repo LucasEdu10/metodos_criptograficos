@@ -39,10 +39,10 @@ def menu():
         opc = int(input('Digite uma opção: '))
         if opc == 1:
             cripto()
-        # elif opc == 2:
-        #     dscripto()
-        # else:
-        #     check = False
-        #     print('Até a proxima!')
+        elif opc == 2:
+            dscripto()
+        else:
+            check = False
+            print('Até a proxima!')
 
 menu()
